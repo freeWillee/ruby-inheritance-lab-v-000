@@ -26,7 +26,7 @@ jim.last_name = "Lawson"
 steve.learn(some_knowledge)
 puts "Steve just learned this important knowledge: '#{steve.knowledge.last}' from Avi"
 
-puts "Today, Steve learned the following:"
+puts "Today, #{steve.first_name} learned the following:"
 steve.knowledge.each do |knowledge|
   puts knowledge
 end
@@ -40,4 +40,3 @@ puts "Today, #{sarah.first_name} learned the following:"
 steve.knowledge.each do |knowledge|
   puts knowledge
 end
-
